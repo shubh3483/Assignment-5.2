@@ -37,6 +37,17 @@ public class MainActivity extends AppCompatActivity {
                 showCount();
             }
         });
+        b.zeroButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showZero();
+            }
+        });
+    }
+
+    private void showZero() {
+        b.countTextView.setText(""+ 0);
+        count = 0;
     }
 
     private void showCount() {
