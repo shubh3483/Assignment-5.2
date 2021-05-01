@@ -1,7 +1,9 @@
 This project contains three branches with basics of Android.
 
 Apk for master branch : https://github.com/shubh3483/Assignment-5.2/releases/download/5.2.1/master-branch.apk
+
 Apk for 5.2.2 branch : https://github.com/shubh3483/Assignment-5.2/releases/download/5.2.2/Branch-5.2.2.apk
+
 Apk for 5.2.3 branch : https://github.com/shubh3483/Assignment-5.2/releases/download/5.2.3/Branch-5.2.3.apk
 
 For branch master the app has the following UI.
