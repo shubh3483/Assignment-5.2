@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     ActivityMainBinding b;
     int count = 0;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(b.getRoot());
         setUpEventHandlers();
     }
+
+    /**
+     * Event Handlers
+     */
 
     private void setUpEventHandlers() {
         b.toastButton.setOnClickListener(new View.OnClickListener() {
@@ -39,11 +44,18 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * This function will increase the count
+     */
     private void showCount() {
         b.countTextView.setText(""+count);
         count++;
     }
 
+
+    /**
+     * This function will show a toast
+     */
     private void showToast() {
         Toast toast = Toast.makeText(this,"Hello Toast",Toast.LENGTH_SHORT);
         toast.show();
