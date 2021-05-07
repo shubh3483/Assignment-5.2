@@ -1,5 +1,11 @@
 This project contains three branches with basics of Android.
 
+5.2.1 : https://github.com/shubh3483/Assignment-5.2/tree/master
+
+5.2.2 : https://github.com/shubh3483/Assignment-5.2/tree/5.2.2
+
+5.2.3 : https://github.com/shubh3483/Assignment-5.2/tree/5.2.3
+
 Apk for master branch : https://github.com/shubh3483/Assignment-5.2/releases/download/5.2.1/master-branch.apk
 
 Apk for 5.2.2 branch : https://github.com/shubh3483/Assignment-5.2/releases/download/5.2.2/Branch-5.2.2.apk
